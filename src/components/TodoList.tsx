@@ -32,9 +32,13 @@ const TodoList = (): JSX.Element => {
         </button>
       </div>
       <ul className="rounded-custom border p-6 shadow-custom">
-        {filteredTodos.map((todo) => (
-          <TodoItem key={todo.id} todo={todo} />
-        ))}
+        {filteredTodos.length > 0 ? (
+          filteredTodos.map((todo) => <TodoItem key={todo.id} todo={todo} />)
+        ) : (
+          <li className="text-center text-gray-500 py-4">
+            Tasks list is empty
+          </li>
+        )}
       </ul>
     </div>
   );
