@@ -18,12 +18,13 @@ Simple todo list app where users can
 
 Design is created according to figma file
 
-Decisions or trade-offs ?
+#### Decisions or trade-offs
+
 Ive decided to use zustand as state managment. I also added delete task button with simple fade out animation.
 
 The time it took me to complete the task was about 3-4 hours
 
-### Technologies
+## Technologies
 
 - Vite, react, typescript
 - State management - Zustand
@@ -34,7 +35,7 @@ Additional packages
 - React icons
 - Nanoid
 
-#### Launch -
+## Launch
 
 To run this project just clone it and then
 
@@ -46,4 +47,4 @@ npm install
 npm run dev
 ```
 
-or just go to [live](https://github.com/siemacotam/todo-app) and have a fun
+or just go to [live](https://siemacotam.github.io/todo-app/) and have a fun
