@@ -18,7 +18,7 @@ export const Checkbox = ({
           id="check1"
         />
         <span className="absolute text-white opacity-0 peer-checked:opacity-100 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <img src="/assets/checked.svg" alt="Checked icon" />
+          <img src="/todo-app/assets/checked.svg" alt="Checked icon" />
         </span>
       </label>
     </div>

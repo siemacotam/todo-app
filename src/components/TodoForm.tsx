@@ -32,7 +32,7 @@ const TodoForm = (): JSX.Element => {
         />
         <img
           onClick={handleAddTodo}
-          src="/assets/add.svg"
+          src="/todo-app/assets/add.svg"
           alt="Add icon"
           className="absolute right-2 top-1/2 transform -translate-y-1/2 w-6 h-6 cursor-pointer"
         />
